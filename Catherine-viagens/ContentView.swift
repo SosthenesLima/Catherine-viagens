@@ -40,6 +40,16 @@ struct ContentView: View {
                 .background(Color.purple)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 
+                HStack {
+                    Button("Hóteis") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                        
+                    }
+                    Button("Pacoes") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                }
+                
                 List {
                     Text("Rio de Janeiro")
                     Text("Ceará")
