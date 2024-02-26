@@ -1,9 +1,9 @@
-//
+/*
 //  ContentView.swift
 //  Catherine-viagens
 //
 //  Created by Sósthenes Oliveira Lima on 20/02/24.
-//
+*/
 
 import SwiftUI
 
@@ -43,6 +43,7 @@ struct ContentView: View {
                 HStack {
                     Button("Hóteis") {
                         /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                        
                         
                     }
                     Button("Pacoes") {
