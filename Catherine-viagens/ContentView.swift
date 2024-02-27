@@ -38,24 +38,23 @@ struct ContentView: View {
                 
                 .frame(width: view.size.width, height: 180, alignment: .top)
                 .background(Color.purple)
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
                 
                 HStack {
                     Button(action: {} ) {
                         Text("Hotéis ")
                             .font(.custom("Avenir Medium", size: 17))
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
-                            
-                        
-                        
                     }
+                    .frame(width: 100,height: 50)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                    
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/ ) {
                         Text("Pacotes")
                             .font(.custom("Avenir Medium", size: 17))
                             .foregroundColor(.white)
                     }
-                       
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
                     .background(Color.orange)
                 }
                 
@@ -68,6 +67,7 @@ struct ContentView: View {
                 }
             }
         }
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 
     
