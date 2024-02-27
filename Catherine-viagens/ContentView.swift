@@ -41,14 +41,22 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 
                 HStack {
-                    Button("Hóteis") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    Button(action: {} ) {
+                        Text("Hotéis ")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                            
                         
                         
                     }
-                    Button("Pacoes") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/ ) {
+                        Text("Pacotes")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(.white)
                     }
+                       
+                    .background(Color.orange)
                 }
                 
                 List {
