@@ -47,6 +47,7 @@ struct ContentView: View {
                             .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     }
                     .frame(width: 100,height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 10))
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
                     .offset(x: 50)
                     
@@ -58,6 +59,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                     }
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.orange))
                     .background(Color.orange)
                     .offset(x: -50)
                 }
