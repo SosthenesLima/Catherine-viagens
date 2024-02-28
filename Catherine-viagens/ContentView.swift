@@ -48,6 +48,9 @@ struct ContentView: View {
                     }
                     .frame(width: 100,height: 50)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                    .offset(x: 50)
+                    
+                    Spacer()
                     
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/ ) {
                         Text("Pacotes")
@@ -56,7 +59,10 @@ struct ContentView: View {
                     }
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
                     .background(Color.orange)
+                    .offset(x: -50)
                 }
+                .offset(y: -25)
+                
                 
                 List {
                     Text("Rio de Janeiro")
