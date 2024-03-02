@@ -3,6 +3,7 @@
 //  Catherine-viagens
 //
 //  Created by Sósthenes Oliveira Lima on 20/02/24.
+ Alteração na estrutura
 */
 
 import SwiftUI

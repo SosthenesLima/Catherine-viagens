@@ -1,10 +1,9 @@
-//
+/*
 //  Viagem.swift
-//  new-alura-viagens
+//  Catherine-viagens
 //
-//  Created by Ândriu Felipe Coelho on 23/01/20.
-//  Copyright © 2020 Ândriu Felipe Coelho. All rights reserved.
-//
+//  Created by Sósthenes Oliveira Lima on 29/02/24.
+*/
 
 import Foundation
 import MapKit

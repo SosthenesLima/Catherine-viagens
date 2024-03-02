@@ -11,6 +11,8 @@
 		664E281E2B85678600E7B156 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E281D2B85678600E7B156 /* ContentView.swift */; };
 		664E28202B85678700E7B156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664E281F2B85678700E7B156 /* Assets.xcassets */; };
 		664E28232B85678700E7B156 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664E28222B85678700E7B156 /* Preview Assets.xcassets */; };
+		667536712B91545A00220405 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 667536702B91545A00220405 /* Models */; };
+		667536732B91547D00220405 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 667536722B91547D00220405 /* viagens.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		664E281D2B85678600E7B156 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		664E281F2B85678700E7B156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664E28222B85678700E7B156 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		667536702B91545A00220405 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		667536722B91547D00220405 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				664E281B2B85678600E7B156 /* Catherine_viagensApp.swift */,
 				664E281D2B85678600E7B156 /* ContentView.swift */,
+				667536722B91547D00220405 /* viagens.json */,
+				667536702B91545A00220405 /* Models */,
 				664E281F2B85678700E7B156 /* Assets.xcassets */,
 				664E28212B85678700E7B156 /* Preview Content */,
 			);
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				664E28232B85678700E7B156 /* Preview Assets.xcassets in Resources */,
+				667536712B91545A00220405 /* Models in Resources */,
 				664E28202B85678700E7B156 /* Assets.xcassets in Resources */,
+				667536732B91547D00220405 /* viagens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
